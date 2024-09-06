@@ -42,7 +42,7 @@ class MainWindow:
         self.button_frame = tk.Frame(self.canvas, bg="white", width=25,
                                      height=25)
         label_font = ("Helvetica", 20, "bold")
-        buttonFrameLabel = ttk.Label(self.button_frame, text = "Bienvenu dans la base de donnée de la gestion des casernes", font = label_font)
+        buttonFrameLabel = ttk.Label(self.button_frame, text = "Bienvenue dans la base de donnée de la gestion des casernes", font = label_font)
         buttonFrameLabel.pack()
 
         button_font = ("Helvetica", 12)
